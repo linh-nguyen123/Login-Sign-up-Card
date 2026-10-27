@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #edf2f7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    width: 750px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.form-section {
+    flex: 1;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-text h2 {
+    font-size: 24px;
+    color: #1a202c;
+    margin-bottom: 6px;
+}
+
+.welcome-text p {
+    font-size: 13px;
+    color: #718096;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 6px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input-group input:focus {
+    border-color: #3182ce;
+}
+
+.remember-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #4a5568;
+}
+
+.remember-row input {
+    margin-right: 8px;
+}
+
+.sign-in-btn {
+    width: 100%;
+    padding: 11px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.sign-in-btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* Cột bên phải (Panel trang trí) */
+.decorative-panel {
+    flex: 1;
+    background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+    color: white;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    text-align: left;
+}
+
+.decorative-panel h2 {
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+
+.decorative-panel p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #e0e7ff;
+    max-width: 260px;
+}
